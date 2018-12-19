@@ -7,7 +7,7 @@ composer require yuner/sms
 ```
 
 Then run these commands to publish config：
-
+------------
 ```
 php artisan vendor:publish --provider="Encore\Admin\AdminServiceProvider"
 ```
