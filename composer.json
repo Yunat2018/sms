@@ -9,11 +9,12 @@
             "email": "357365507@qq.com"
         }
     ],
+    "require": {},
     "autoload": {
         "psr-4": {
             "Yuner\\Sms\\":"src/"
         }
     },
     "minimum-stability": "dev",
-    "require": {}
+    "prefer-stable": true
 }
