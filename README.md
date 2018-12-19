@@ -9,5 +9,5 @@ composer require yuner/sms
 2、发布配置文件：
 ------------
 ```
-php artisan vendor:publish --provider="Encore\Admin\AdminServiceProvider"
+php artisan vendor:publish --provider="Yuner\Sms\SmsServiceProvider"
 ```
