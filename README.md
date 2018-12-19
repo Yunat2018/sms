@@ -1,12 +1,12 @@
 this is a sms for http://www.sms.cn
 
-Installation
+1、安装：
 ------------
 ```
 composer require yuner/sms
 ```
 
-Then run these commands to publish config：
+2、发布配置文件：
 ------------
 ```
 php artisan vendor:publish --provider="Encore\Admin\AdminServiceProvider"
