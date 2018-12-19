@@ -1,0 +1,19 @@
+{
+    "name": "yuner/sms",
+    "description": "this is a sms for http://www.sms.cn",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yuner",
+            "email": "357365507@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Yuner\\Sms\\":"src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
