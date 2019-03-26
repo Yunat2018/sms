@@ -74,7 +74,7 @@ class SmsApi {
     {
         return array(
             'uid'		=> $this->uid,
-            'pwd'		=> $this->pwd,
+            'pwd'		=> md5($this->pwd.$this->uid),
             'format'	=> $this->format,
         );
     }
